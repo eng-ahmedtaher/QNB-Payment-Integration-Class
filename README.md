@@ -56,7 +56,7 @@ QNB Payment Integration is a PHP Class for Integrated Payment via QNB Bank.
 - Merchant Password in QNB System, Ex: '9c6a123857f1ea50830fa023ad8c8d1b'.
 
 ## Response of Create Session Method
-- Create and Retrive Session ID.
+- Create and Retrieve Session ID.
 
 ## Create Payment Method should have contain: 
 
