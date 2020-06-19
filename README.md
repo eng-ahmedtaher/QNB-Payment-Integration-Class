@@ -3,9 +3,15 @@
 QNB Payment Integration is a PHP Class for Integrated Payment via QNB Bank.
 
 ## Usage
+- Install Module
 
+```bash
+composer install
+```
+- require the autoloader and use Class
 ```php
-	require_once 'Class/QNBPayment.php';
+	require_once 'vendor/autoload.php';
+	use Payment\QNBPayment;
 
 	// Create Session for Payment SandBox Mode
 	QNBPayment::createSessionSandBox();
