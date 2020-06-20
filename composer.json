@@ -1,0 +1,31 @@
+{
+    "name": "nacerns/qnb-payment-integration-class",
+    "description": "QNB Payment Integration is a PHP Class for Integrated Payment via QNB Bank.",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "naciriii",
+            "email": "nnacir1938@hotmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Payment\\": "src"
+        }
+    
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests --testdox --colors=always",
+        "lint-check": "./vendor/bin/php-cs-fixer fix ./ --dry-run",
+        "lint": "./vendor/bin/php-cs-fixer fix ./ "
+    }
+    
+    
+
+}

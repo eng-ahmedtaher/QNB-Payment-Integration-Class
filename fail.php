@@ -1,3 +1,3 @@
-<?php 
+<?php
 
-	echo "This is a Failer Payment Page <br />";
+    echo "This is a Failer Payment Page <br />";
